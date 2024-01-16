@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="images/logo3.png" alt="">TuneTrove</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Song List</h1>
+            <div class="songsItemcontainer">
+                <!-- Song items with unique IDs -->
+                <div class="songItem" id="songItem1">
+                    <img src="images/logo2.png" alt="1">
+                    <span>There we go</span>
+                    <span class="songlistplay"><span class="Timestamp">05:45  <i class="fa-2x fa-solid fa-play songItemPlay"></i></span></span>
+                </div>
+
+                <div class="songItem" id="songItem2">
+                  <img src="covers/1.jpg" alt="2">
+                  <span>Be There</span>
+                  <span class="songlistplay"><span class="Timestamp">03:45  <i class="fa-2x fa-solid fa-play songItemPlay"></i></span></span>
+              </div>
+              <div class="songItem" id="songItem3">
+                <img src="covers/2.jpg" alt="3">
+                <span>Love yourself</span>
+                <span class="songlistplay"><span class="Timestamp">02:45  <i class="fa-2x fa-solid fa-play songItemPlay"></i></span></span>
+            </div>
+            <div class="songItem" id="songItem4">
+              <img src="covers/3.jpg" alt="4">
+              <span>Go Away</span>
+              <span class="songlistplay"><span class="Timestamp">05:49  <i class="fa-2x fa-solid fa-play songItemPlay"></i></span></span>
+          </div>
+          <div class="songItem" id="songItem5">
+            <img src="covers/4.jpg" alt="5">
+            <span>Never Mind</span>
+            <span class="songlistplay"><span class="Timestamp">04:45  <i class="fa-2x fa-solid fa-play songItemPlay"></i></span></span>
+        </div>
+        <div class="songItem" id="songItem6">
+          <img src="covers/10.jpg" alt="6">
+          <span>Be You</span>
+          <span class="songlistplay"><span class="Timestamp">02:55  <i class="fa-2x fa-solid fa-play songItemPlay"></i></span></span>
+      </div>
+      <div class="songItem" id="songItem7">
+        <img src="covers/7.jpg" alt="7">
+        <span>Dancing Heart</span>
+        <span class="songlistplay"><span class="Timestamp">03:00  <i class="fa-2x fa-solid fa-play songItemPlay"></i></span></span>
+    </div>
+
+                <!-- Repeat similar structure for other song items -->
+
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- Font Awesome icons -->
+            <i class="fa-2x fa-solid fa-backward" id="previous"></i>
+            <i class="fa-2x fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-2x fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="images/playing.gif" width="80px" alt="" id="gif"> <span id="masterSongName">There we go - MJ</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9419a29da7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

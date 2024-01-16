@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,300;0,700;1,700&family=Roboto:wght@100;500&display=swap');
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 50px;
+    align-items: center;
+    color: beige;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+.logo img {
+    width: 45px;
+    padding: 0 5px;
+    border-radius: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Lemon', serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 60vh;
+    background: #000;
+    color: white;
+    font-family: 'Lemon', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 25px auto;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url(images/bg.jpg);
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 90vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songList {
+    position: flex;
+    margin-top: 0;
+}
+
+.songList h1 {
+    align-items: center;
+    margin: 0 90px;
+}
+
+.songsItemcontainer {
+    position: sticky;
+    margin-top: 50;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color:#00bfff ;
+    border-radius: 25px;
+    justify-content: space-between;
+    margin: 12px 0;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songItem img {
+    width: 45px;
+    margin: 0 20px;
+    border-radius: 35px;
+}
+
+.Timestamp {
+    margin: 0 25px;
+}
+
+.Timestamp i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 5vw;
+    margin: 40px 0;
+    font-family: 'Lemon', serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
